@@ -1,8 +1,8 @@
+# PathoFocus
+
 <div align="center">
   <img src="fig/fig1.jpg" alt="PathoFocus architecture" width="400" height="160" />
 </div>
-
-# PathoFocus
 
 The implementation of PathoFocus. A local attention transformer for pathology data. 
 
