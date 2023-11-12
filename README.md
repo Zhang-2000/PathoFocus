@@ -1,7 +1,8 @@
 # PathoFocus
 
-![PathoFocus architecture](fig/fig1.jpg)
+<img src="fig/fig1.jpg" alt="PathoFocus architecture" width="400" height="160" />
 
 The implementation of PathoFocus. A local attention transformer for pathology data. 
 
-![Clustering example](fig/fig2.png)
+<img src="fig/fig2.png" alt="Clustering example" width="180" height="260" />
+
