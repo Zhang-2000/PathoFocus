@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: clustencuda
+Version: 0.1
+Summary: Cluster Attention CUDA Kernel
+Author: Ziwen Chen
+Author-email: chenziw@oregonstate.edu

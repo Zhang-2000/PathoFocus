@@ -1,0 +1,32 @@
+MODEL:
+  TYPE: base
+  NAME: patho_focus_base
+  DROP_PATH_RATE: 0.2
+  AFF:
+    DEPTHS: [3,4]
+    NUM_HEADS: [4,8]
+    MLP_RATIO: 3.
+    EMBED_DIM: [128, 256]
+    CLUSTER_SIZE: 8
+    NBHD_SIZE: [48,48]
+    LAYER_SCALE: 1e-5 # turned off if 0.0
+    ALPHA: 4.0
+    DS_RATE: 0.25
+DATA:
+  DATASET: TCGA
+  PATCH_DIM: 224 
+  BATCH_SIZE: 1
+  DATA_PATH: path/to/TCGA.csv
+TRAIN:
+  EPOCHS: 100
+  WARMUP_EPOCHS: 10
+  WEIGHT_DECAY: 0.05
+  BASE_LR: 5e-4
+  MIN_LR: 1.25e-6
+  USE_EMA: False 
+  EMA_DECAY: 0.9998
+  WARMUP_LR: 1.25e-7
+  ACCUMULATION_STEPS: 1
+AUG:
+  MIXUP: 0.8
+  CUTMIX: 1.0
