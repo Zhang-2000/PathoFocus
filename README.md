@@ -48,7 +48,8 @@ sh create_env.sh
   <img src="fig/data_prepare.png" width="100%" height="100%"/>
 </div><br/>
 
-[Tissue segmentation+Patch divide]([超链接](https://github.com/mahmoodlab/CLAM) "")
+[Tissue segmentation+Patch divide](https://github.com/mahmoodlab/CLAM)
+
 ```bash
 python create_patches_fp.py \
 --source DATA_DIRECTORY \
@@ -56,7 +57,7 @@ python create_patches_fp.py \
 --patch_size 256 --seg --patch --stitch 
 ```
 
-[Extract patch feature]([超链接](https://github.com/mahmoodlab/HIPT.git) "")
+[Extract patch feature]((https://github.com/mahmoodlab/HIPT.git))
 Use "model256" for feature extracting
 ```bash
 python extract_features_fp.py \
