@@ -89,7 +89,7 @@ TCGA_xxxx/
 
 ```bash
 # dataset path
-DATA=/workspace/ssl/HVTSurv/UCEC/raw_data/patch_result/feature/h5_files/
+DATA=$DATA_PATH
 # config file path
 CONFIG=configs/config.yaml
 python -main.py \
