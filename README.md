@@ -57,7 +57,7 @@ python create_patches_fp.py \
 --patch_size 256 --seg --patch --stitch 
 ```
 
-[Extract patch feature]((https://github.com/mahmoodlab/HIPT.git))
+[Extract patch feature](https://github.com/mahmoodlab/HIPT.git)
 Use "model256" for feature extracting
 ```bash
 python extract_features_fp.py \
